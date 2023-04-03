@@ -1,0 +1,26 @@
+.blog-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-highlights {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #FFF;
+    padding: 20px;
+}
+
+.blog-entry {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-text {
+    text-align: center;
+}

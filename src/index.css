@@ -11,15 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.carousel-wrapper {
-  height: 1400px;
-  width: 80%;
-  overflow: hidden;
-}
-
-.slick-slide img {
-  /*height: 600px;*/
-  width: 100%;
-  object-fit: cover;
-}

@@ -4,16 +4,21 @@ import "slick-carousel/slick/slick-theme.css";
 import img1 from "../../images/001.jpg";
 import img2 from "../../images/002.jpg";
 import img3 from "../../images/003.jpg";
+import './Carousel.css';
 
 const Carousel = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 6000,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000
+        autoplaySpeed: 50,
+        centerMode: true,
+        centerPadding: "5px",
+        cssEase: "linear",
+        // variableWidth: true
     };
 
     return (

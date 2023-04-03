@@ -1,0 +1,24 @@
+.carousel-wrapper {
+    /*height: 100vh;*/
+    width: 100%;
+    overflow: hidden;
+    background-color: #282c34;
+}
+
+.slick-slide {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide img {
+    /*height: 600px;*/
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.slick-slider {
+    text-align: center;
+}
