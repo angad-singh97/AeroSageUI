@@ -8,15 +8,16 @@ import './Carousel.css';
 
 const Carousel = () => {
     const settings = {
-        dots: true,
+        dots: false,
+        arrows: false,
         infinite: true,
         speed: 6000,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 50,
-        centerMode: true,
-        centerPadding: "5px",
+        // centerMode: true,
+        // centerPadding: "5px",
         cssEase: "linear",
         // variableWidth: true
     };

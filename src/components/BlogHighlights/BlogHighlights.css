@@ -2,11 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.blog-highlights {
     color: white;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     border: 1px solid #FFF;
     padding: 20px;
@@ -19,6 +16,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.blog-entry img {
+    width: 200px;
+    height: 150px;
 }
 
 .blog-text {

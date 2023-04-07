@@ -1,27 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import Carousel from './components/Carousel'
-import BlogHighlights from "./components/BlogHighlights";
+import SearchPage from "./pages/SearchPage";
+import HomePage from "./pages/HomePage";
+import {Route, Routes} from "react-router-dom";
+import NavBar from "./components/NavBar";
+
 
 function App() {
-    return (
-        <>
-            <div className="App">
-                <header className="App-header">
-                    <h3>AeroSage</h3>
-                </header>
-            </div>
-
-            <div className="outer-container">
-                <div style={{width: '100%'}}>
-                    <Carousel/>
-                </div>
-                <div style={{width: '33%', marginTop: '2px'}}>
-                    <BlogHighlights/>
-                </div>
-            </div>
-        </>
-    );
+    return (<>
+            <NavBar/>
+            <Routes>
+                <Route path="/" element={<HomePage/>}></Route>
+                <Route path="/search" element={<SearchPage/>}></Route>
+            </Routes>
+        </>)
 }
 
 export default App;
