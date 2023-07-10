@@ -1,0 +1,16 @@
+.nav-bar-link-header {
+    font-weight: bolder;
+    margin: auto;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.nav-links-div {
+    display: flex;
+}
+
+.link-fa-icon {
+    font-size: medium;
+}

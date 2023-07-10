@@ -1,0 +1,60 @@
+
+.route-summary {
+    font-family: Verdana;
+    width: 50vw;
+    font-size: large;
+    border: 2px solid deepskyblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.moreDetailsButton {
+    border-radius: 3px;
+    border: 1px dotted white;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.route-summary-header {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.route-summary-header h3 {
+    padding: 10px;
+    color: cyan;
+    font-style: italic;
+}
+
+.route-summary-content {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.airlinesPara {
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.route-summary-header a {
+    text-decoration: none;
+    color: white;
+}
+.route-summary-header a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.route-summary-header a:hover {
+    text-decoration: none;
+    color: darkcyan;
+}
+

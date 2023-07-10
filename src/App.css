@@ -1,4 +1,4 @@
-.App {
+. App {
   text-align: center;
 }
 
@@ -10,10 +10,15 @@ body {
 .home-page-bottom-component-parent {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 5px;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 1em;
+  /*margin-top: 5px;*/
   background-color: #282c34;
+  border: 1px solid cyan;
+  height: 50vh;
+  box-sizing: border-box;
+  /*padding: 10px;*/
 }
 
 .home-page-main-parent {
@@ -21,18 +26,33 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: flex-start;
+  border: 1px solid grey;
+  /*padding: 10px;*/
+}
+
+.flex-homepage-item {
+  flex: 1 0 0;
+  padding: 1em; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding within the total width */
+  border: 1px solid darkcyan;
 }
 
 
 .App-header {
   background-color: #282c34;
-  border: 1px solid darkcyan;
-  height: 10vh;
+  /*border: 1px solid darkcyan;*/
+  height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-header a {
+  text-decoration: none;
   color: white;
 }
 

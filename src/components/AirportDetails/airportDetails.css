@@ -1,0 +1,53 @@
+.airport-details-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 1em;
+
+}
+
+.airport-details-header {
+    text-align: center;
+    /*border: 1px solid gold;*/
+    margin-bottom: 0.3em;
+    padding: 0.5em;
+}
+
+.airport-details-content {
+    /*border: 1px solid cyan;*/
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.5em;
+}
+
+.airport-details-content p {
+    /*border: 1px solid cyan;*/
+    font-weight: bold;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+.airport-reviews-container {
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+.nav-bar{
+    color: white;
+    text-decoration: none;
+}

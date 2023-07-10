@@ -8,7 +8,7 @@ import './Carousel.css';
 
 const Carousel = () => {
     const settings = {
-        dots: false,
+        dots: true,
         arrows: false,
         infinite: true,
         speed: 6000,
@@ -24,7 +24,7 @@ const Carousel = () => {
 
     return (
         <div className="carousel-wrapper">
-            <Slider {...settings}>
+            <Slider {...settings} className="slider-slick-js">
                 <div>
                     <img src={img1} alt="Slide 1" />
                 </div>

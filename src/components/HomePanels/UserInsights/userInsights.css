@@ -1,0 +1,8 @@
+.user-insights-panel {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3em;
+}

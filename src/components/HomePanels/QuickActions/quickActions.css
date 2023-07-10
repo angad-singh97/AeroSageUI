@@ -1,0 +1,35 @@
+.quick-actions-panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /*padding: 20px;*/
+    /*margin-right: 20px;*/
+    margin-right: 0.3em;
+}
+
+
+.quick-actions-button {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-weight: bold;
+/*    padding: 15px 20px;
+    margin: 10px;*/
+    background: #14212d;
+    padding: 1em 0.5em;
+    width: 80%;
+    color: white;
+}
+
+.quick-actions-button a, .quick-actions-button a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+.quick-actions-button a:hover{
+    text-decoration: none;
+    color: cyan;
+}

@@ -1,20 +1,21 @@
 .carousel-wrapper {
-    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    /*margin-top:30px;*/
     overflow: hidden;
     background-color: #282c34;
-    border: 1px solid chartreuse;
+    border: 1px solid cyan;
 }
 
 .slick-slide {
-    height: 20vh;
+    height: 30vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .slick-slide img {
-    /*height: 600px;*/
-    width: 100%;
-    object-fit: cover;
+    height: 100%;
 }
+
 
