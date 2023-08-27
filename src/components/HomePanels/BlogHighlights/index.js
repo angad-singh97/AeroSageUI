@@ -1,6 +1,6 @@
 import React from 'react';
 import './BlogHighlights.css';
-import './../../../App.css';
+// import './../../../App.css';
 import img1 from "../../../images/airport-blog.jpg";
 import img2 from "../../../images/airline-blog.png";
 import img3 from "../../../images/flight-blog.jpg";

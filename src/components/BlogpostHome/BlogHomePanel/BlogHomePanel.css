@@ -1,12 +1,12 @@
-.blog-highlights {
+.blog-home-highlights {
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-between;*/
     color: white;
     overflow: hidden;
-    /*padding: 1em;*/
+    /*padding: 20px;*/
 }
 
-.blog-entry {
+.blog-home-entry {
     /*width: calc(33.33% - 10px);*/
     /*margin-bottom: 50px;*/
     display: flex;
@@ -15,15 +15,15 @@
     align-items: center;
     flex: 1;
     /*border: 1px solid white;*/
-    /*padding: 0.1em;*/
-    margin: 0.1em;
+    padding: 0.1em;
+    margin: 0.5em;
     text-decoration: none;
     color: white;
 }
 
-.blog-text img {
+.blog-home-text img {
     width: 100%;
-    /*height: 30%;*/
+    height: 70%;
     /*margin-left: 0.3em;*/
     /*margin-right: 0.3em;*/
     /*height: 15px;*/
@@ -31,32 +31,32 @@
     border-radius: 20px;
 }
 
-.blog-text {
+.blog-home-text {
     padding:0.2em;
-    font-size: small;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: normal;
 }
 
-.blog-description-text{
-    font-size: xx-small;
-}
-
-.blog-title-text {
+.blog-home-description-text{
     font-size: small;
+    font-style: italic;
+}
+
+.blog-home-title-text {
+    font-size: medium;
 }
 
 
-.blog-text {
+.blog-home-text {
     /*border: 1px solid #ccc;*/
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
     transition: box-shadow 0.3s;
 }
 
-.blog-text:hover {
-    background-color: rgba(0, 255, 255, 0.2); /* Dimmed cyan color */
-    box-shadow: 0 0 20px rgba(0, 255, 255, 1);
+.blog-home-text:hover {
+    background-color: rgba(0, 255, 255, 0.5); /* Dimmed cyan color */
+    box-shadow: 0 0 50px rgba(0, 255, 255, 1);
 }

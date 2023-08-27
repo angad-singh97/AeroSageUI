@@ -57,19 +57,19 @@ const NavBar = () => {
                     <Link  to="/"><FontAwesomeIcon icon={faHome}/></Link >
                 </li>
                 <li className="nav-bar-link">
-                    <NavLink  to="/search">Airports <FontAwesomeIcon icon={faBuilding} className="link-fa-icon"/></NavLink >
+                    <NavLink className="nav-bar-link-edit"  to="/wip">Airports <FontAwesomeIcon icon={faBuilding} className="link-fa-icon"/></NavLink >
                 </li>
                 <li className="nav-bar-link">
-                    <NavLink  to="/search">Flights <FontAwesomeIcon icon={faPlaneDeparture} className="link-fa-icon"/></NavLink >
+                    <NavLink className="nav-bar-link-edit"   to="/search">Flights <FontAwesomeIcon icon={faPlaneDeparture} className="link-fa-icon"/></NavLink >
                 </li>
                 <li className="nav-bar-link">
-                    <NavLink  to="/search">Airlines <FontAwesomeIcon icon={faTicket} className="link-fa-icon"/></NavLink >
+                    <NavLink className="nav-bar-link-edit"   to="/wip">Airlines <FontAwesomeIcon icon={faTicket} className="link-fa-icon"/></NavLink >
                 </li>
                 <li className="nav-bar-link">
-                    <NavLink  to="/search">Planes <FontAwesomeIcon icon={faPlaneUp} className="link-fa-icon"/></NavLink >
+                    <NavLink className="nav-bar-link-edit"   to="/wip">Planes <FontAwesomeIcon icon={faPlaneUp} className="link-fa-icon"/></NavLink >
                 </li>
                 <li className="nav-bar-link">
-                    <NavLink  to="/search">Blogs <FontAwesomeIcon icon={faBlog} className="link-fa-icon"/></NavLink >
+                    <NavLink className="nav-bar-link-edit"   to="/blogs">Blogs <FontAwesomeIcon icon={faBlog} className="link-fa-icon"/></NavLink >
                 </li>
             </div>
             <li className="nav-bar-link-header"><FontAwesomeIcon icon={faPlane}/> AeroSage</li>
